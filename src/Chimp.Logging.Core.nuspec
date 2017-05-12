@@ -3,18 +3,20 @@
   <metadata>
     <id>Chimp.Logging.Core</id>
     <title>Chimp.Logging.Core</title>
-    <version>0.1.0-alpha</version>
+    <version>0.1.1-alpha</version>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
     <projectUrl>https://github.com/CHDKUtil/Chimp.Logging.Core</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/CHDKUtil/Chimp.Logging.Core/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Chimp.Logging core types</description>
+    <description>Chimp.Logging Microsoft.Extensions.Logging adapters</description>
     <copyright>Copyright © 2017 Dmitry Shechtman</copyright>
     <tags>chimp logging core</tags>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Added .NET Standard 1.0</releaseNotes>
   </metadata>
   <files>
+    <file src="bin\Release\netstandard1.0\Chimp.Logging.Core.dll" target="lib\netstandard1.0" />
+    <file src="bin\Release\netstandard1.0\Chimp.Logging.Core.xml" target="lib\netstandard1.0" />
     <file src="bin\Release\Profile259\Chimp.Logging.Core.dll" target="lib\portable-net45+win8+wpa81+wp8" />
     <file src="bin\Release\Profile259\Chimp.Logging.Core.xml" target="lib\portable-net45+win8+wpa81+wp8" />
     <file src="bin\Release\Net20\Chimp.Logging.Core.dll" target="lib\net20" />
