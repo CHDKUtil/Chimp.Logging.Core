@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Chimp.Logging.Core</AssemblyName>
+    <RootNamespace>Chimp.Logging</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <TreatSpecificWarningsAsErrors />
+    <DocumentationFile>..\bin\Release\netstandard1.0\Chimp.Logging.Core.xml</DocumentationFile>
+    <OutputPath>..\bin\Release</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\bin\Debug\netstandard1.0\Chimp.Logging.Core.xml</DocumentationFile>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <TreatSpecificWarningsAsErrors />
+    <OutputPath>..\bin\Debug</OutputPath>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="Chimp.Logging.Core.0.1.0-alpha.nupkg" />
+    <None Remove="Chimp.Logging.Core.nuspec" />
+    <None Remove="nuget.exe" />
+  </ItemGroup>
+  
+  <Import Project="..\Core\Core.projitems" Label="Shared" />
+
+</Project>
