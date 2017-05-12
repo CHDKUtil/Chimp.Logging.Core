@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net45", "Net45.csproj", "{E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net40", "Net40.csproj", "{8F203DA3-0BA4-4B6F-905A-F439AF9EBEA5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFD58763-9CBC-4BB6-8737-FC83932B70D9}"
+	ProjectSection(SolutionItems) = preProject
+		Chimp.Logging.Core.nuspec = Chimp.Logging.Core.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Core\Core.projitems*{491fdb2a-15fe-48f6-9d58-f12a42b326e0}*SharedItemsImports = 4

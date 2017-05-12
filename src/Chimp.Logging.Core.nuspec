@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Chimp.Logging.Core</id>
+    <title>Chimp.Logging.Core</title>
+    <version>0.1.0-alpha</version>
+    <authors>Dmitry Shechtman</authors>
+    <owners>Dmitry Shechtman</owners>
+    <projectUrl>https://github.com/CHDKUtil/Chimp.Logging.Core</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/CHDKUtil/Chimp.Logging.Core/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Chimp.Logging core types</description>
+    <copyright>Copyright © 2017 Dmitry Shechtman</copyright>
+    <tags>chimp logging core</tags>
+    <releaseNotes>Initial release</releaseNotes>
+  </metadata>
+  <files>
+    <file src="bin\Release\Profile259\Chimp.Logging.Core.dll" target="lib\portable-net45+win8+wpa81+wp8" />
+    <file src="bin\Release\Profile259\Chimp.Logging.Core.xml" target="lib\portable-net45+win8+wpa81+wp8" />
+    <file src="bin\Release\Net20\Chimp.Logging.Core.dll" target="lib\net20" />
+    <file src="bin\Release\Net20\Chimp.Logging.Core.xml" target="lib\net20" />
+    <file src="bin\Release\Net35\Chimp.Logging.Core.dll" target="lib\net35-client" />
+    <file src="bin\Release\Net35\Chimp.Logging.Core.xml" target="lib\net35-client" />
+    <file src="bin\Release\Net40\Chimp.Logging.Core.dll" target="lib\net4-client" />
+    <file src="bin\Release\Net40\Chimp.Logging.Core.xml" target="lib\net4-client" />
+    <file src="bin\Release\Net45\Chimp.Logging.Core.dll" target="lib\net45" />
+    <file src="bin\Release\Net45\Chimp.Logging.Core.xml" target="lib\net45" />
+  </files>
+</package>
